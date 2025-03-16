@@ -1,5 +1,5 @@
 import React from 'react'
-import SIdebar from '../Components/Admindashboard/SIdebar'
+import SIdebar from '../Components/Admindashboard/Sidebar'
 import Adminsummary from '../Components/Admindashboard/Adminsummary'
 import Navbar from '../Components/Admindashboard/Navbar'
 
