@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from './Pages/Login';
 import Admindashboard from './Pages/Admindashboard';
 import Register from './Pages/Register';
-import Sidebar from './Components/Admindashboard/SIdebar';
+import Sidebar from './Components/Admindashboard/Sidebar';
 import Employess from './Pages/Employess';
 import Departments from './Pages/Departments';
 import Leaves from './Pages/Leaves';
@@ -21,8 +21,8 @@ const App = () => {
        <Route path="/admin-dashboard" element={<Admindashboard />} />
        <Route path="/employees" element={<Employess/>}/>
        <Route path="/departments" element={<Departments/>}/>
-       <Route path="leaves" element={<Leaves/>}/>
-       <Route path='salary' element={<Salary/>}/>
+       <Route path="/leaves" element={<Leaves/>}/>
+       <Route path='/salary' element={<Salary/>}/>
        <Route path='*' element={<h1>Page Not Found</h1>}/>
         
       </Routes>
